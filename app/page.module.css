@@ -1,7 +1,8 @@
 .body {
   margin: 0;
 }
-.root{
+
+.root {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -12,4 +13,17 @@
 
   display: grid;
   place-items: center;
+}
+
+.layout {
+  width: 1400px;
+  height: 80vh;
+  /* background-color: #000; */
+  /* opacity: .9; */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  -webkit-box-shadow: -3px 0px 72px 18px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -3px 0px 72px 18px rgba(34, 60, 80, 0.2);
+  box-shadow: -3px 0px 72px 18px rgba(34, 60, 80, 0.2);
 }

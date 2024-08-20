@@ -1,11 +1,11 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-import ChatBody from './components/chatBody/layout';
+import ChatBody from './components/chatBody/component';
+
 
 export default function Home() {
   return (
     <div className={styles.root}>
-      <ChatBody />
+      <div className={styles.layout}></div>
     </div>
   );
 }
